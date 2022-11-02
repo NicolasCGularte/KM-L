@@ -4,11 +4,11 @@
 
 
 Parte 1
-Escrever um algoritmo e um programa para efetuar o cálculo da quantidade de litros de combustível gastos em uma viagem,
-utilizando-se um automóvel que faz 12 km por litro.
+Escrever um algoritmo e um programa para efetuar o cálculo da quantidade de litros de combustível gastos em uma viagem, cujo a distancia a percorrer é 2.770km,
+utilizando-se um automóvel que faz 9 km por litro, e que informe o tempo gasto diario na viagem, considerando o tempo de descanço.
 
 Parte 2
-Para obter o cálculo, o usuário deverá fornecer o tempo gasto na viagem e a velocidade média durante a mesma.
+Para obter o cálculo, o usuário deverá fornecer .
 
 Parte 3
 Desta forma, será possível obter a distância percorrida com a fórmula DISTÂNCIA = TEMPO * VELOCIDADE.
