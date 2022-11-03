@@ -18,11 +18,40 @@ Tendo o valor do combustivel atual, será possivel obter o valor total gasto em 
 Parte 5
 O programa deverá apresentar a quantidade de litros de combustível utilizados na viagem, e o valor total gasto em combustivel.
 
-VAR
+algoritmo "semnome"
 
-d_km
-c_km
-preco_c
+var
 
-cg(combustivel gasto) <- c_km*d_km
-vg(valor gasto) <- cg*preco_c
+d_km, c_km, preco_c, cg, vg : real
+
+inicio
+
+EscrevaL("-----------------------------------------")
+
+EscrevaL
+
+EscrevaL("Informe a distancia da viagem em Km :")
+Leia(d_km)
+EscrevaL("Informe o consumo do carro por litro :")
+Leia(c_km)
+EscrevaL("Informe o valor do litro do combustivel: ")
+Leia(preco_c)
+
+EscrevaL
+
+EscrevaL("-----------------------------------------")
+
+cg := d_km*c_km
+vg := cg*preco_c
+
+EscrevaL("-----------------------------------------")
+
+EscrevaL
+
+EscrevaL("A quantida de combutivel necessaria para a viagem é :", cg)
+EscrevaL("O valor gasto em combustivel na viagem foi de :", vg:4:2)
+
+EscrevaL
+
+EscrevaL("-----------------------------------------")
+fimalgoritmo
