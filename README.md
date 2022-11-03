@@ -24,37 +24,51 @@ var
 
 d_km, c_km, preco_c, cg, vg : real
 
+
+Procedimento Acelera()
+Inicio
+Fimprocedimento
+
 inicio
 
 EscrevaL("-----------------------------------------")
+EscrevaL("          COMPUTADOR DE BORDO            ")
+EscrevaL("-----------------------------------------")
+
 
 EscrevaL
 
-EscrevaL("Informe a distancia da viagem em Km :")
+Escreva("Informe a distancia da viagem em Km :")
 Leia(d_km)
-EscrevaL("Informe o consumo do carro por litro :")
+Escreva("Informe o consumo do carro por litro :")
 Leia(c_km)
-EscrevaL("Informe o valor do litro do combustivel: ")
+Escreva("Informe o valor do litro do combustivel: ")
 Leia(preco_c)
+
 
 EscrevaL
 
 EscrevaL("-----------------------------------------")
+EscrevaL("-----------------------------------------")
 
-cg := d_km*c_km
+cg := d_km/c_km
 vg := cg*preco_c
 
 EscrevaL("-----------------------------------------")
+EscrevaL("-----------------------------------------")
 
 EscrevaL
 
-EscrevaL("A quantida de combutivel necessaria para a viagem é :", cg)
-EscrevaL("O valor gasto em combustivel na viagem foi de :", vg:4:2)
+EscrevaL("A quantida de combutivel necessaria para a viagem é :", cg:4:2)
+EscrevaL("O valor gasto em combustivel na viagem foi de : R$",vg:4:2)
 
 EscrevaL
 
 EscrevaL("-----------------------------------------")
-fimalgoritmo
+EscrevaL("-----------------------------------------")
 
+
+
+fimalgoritmo
 
 
